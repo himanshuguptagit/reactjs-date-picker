@@ -1,0 +1,107 @@
+.date-board{
+  max-width: 300px !important;
+  height: 300px;
+  display: flex;
+  overflow: hidden;
+  background: #f4f5f6;
+  border-radius: 10px;
+  flex-direction: column;
+  /* align-content: space-evenly; */
+}
+
+.date-board-title{
+  padding-bottom: 10px;
+  display: flex;
+  color: #4d4d4d;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: space-evenly;
+}
+
+.date-board-title-date{
+  padding: 5px 10px;
+  text-align: start;
+  background-color: dodgerblue;
+  color: white;
+  /* margin-left: auto;
+  margin-right: auto;
+  color: dodgerblue;
+  font-size: 16px; */
+}
+
+.value-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.value-button{
+  border: none;
+  background: transparent;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 75px;
+  color: DeepPink ;
+  padding: 5px;
+  outline: none;
+  overflow: hidden;
+}
+
+.value-button:hover{
+  color: DeepSkyBlue;
+  border: none;
+}
+
+.day-button{
+  width: 50px !important;
+}
+
+.month-button{
+  width: 75px !important;
+}
+
+.selected{
+  color: DeepSkyBlue;
+}
+
+.range-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.range-button{
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  color: DeepPink ;
+  padding: 5px;
+  outline: none;
+}
+
+.range-arrows{
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: 700;
+  color: #d7d7d7;
+  font-size: 20px;
+}
+
+.date-picker-selected{
+  color: white;
+  font-weight: 700;
+}
+
+.date-picker-year{
+  font-size: 28px;
+}
+.date-picker-month{
+  display: inline-block;
+  font-size: 20px;
+}
+.date-picker-day{
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
